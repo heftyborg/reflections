@@ -27,3 +27,8 @@ history organized? How would branches help?
 A: Keeping a master branch separated from feature/fix branches allows to always
 have working code available. When we're in a separate branch we do not have to
 worry about making mistakes and breaking the code.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: It helps navigate the branches and keep track of which branch holds which
+commits.
