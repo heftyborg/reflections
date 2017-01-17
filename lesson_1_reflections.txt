@@ -1,0 +1,48 @@
+Reflections to Lesson 1
+
+Q: How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+A: It was helful because there was no need to browse through thousands of lines
+of code. Instead I only had to look at a finite number of changed lines showing
+old and new versions side by side.
+
+Q: How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+A: Having easy access to file history would allow a convenient way of reflecting
+on progress, it would allow to easily spot issues/and bugs in the text, and to
+easily travel back in time in case the newer version of a file has to be completely
+discarded.
+
+Q: What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+A: It's definitely good idea to decide it's time to commit when you've reached a
+solution to one particular problem. But lazy manual commits on the other hand may
+lead to cluttered saving points which would be hard to navigate through.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Saving multiple files in one commit allows tracking the changes that affect all
+the updated files which in most cases are interconnected. systems like Google Docs
+do not treat files as interconnected thus do save multiple files in one commit.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: git log allows to see commit points with their ID and brief description, and
+using that information we can see the exact changes that happended between two
+commits using git diff command and supplying commit IDs.
+
+Q: How might using version control make you more confident to make changes that
+could break something?
+
+A: It becomes a much easier task to make changes to your code without the fear of
+breaking it since one of the previous commits would still have the working copy.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: To track the changes in my project and try new ideas without the fear of totally
+destroying it.
