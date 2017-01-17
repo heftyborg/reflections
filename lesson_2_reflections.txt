@@ -1,0 +1,16 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: Git creates an empty repository getting ready to track files. It creates .git
+folder to store its data. We need to initialize repository to prepare its
+working environment before we could start tracking file changes.
+
+Q: How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+A: Staging area is a special state(?) of the repository allowing us to prepare
+changes that we would like to save to repository in the next commit. It may
+contain not all changes in the working directory but a specific subset of the
+changes(files). It allows us to be more specific and precise when preparing
+commits.
+
+
