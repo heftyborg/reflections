@@ -13,4 +13,12 @@ contain not all changes in the working directory but a specific subset of the
 changes(files). It allows us to be more specific and precise when preparing
 commits.
 
+Q: How can you use the staging area to make sure you have one commit per logical
+change?
+
+When using staging area we can rely upon `git diff` command to compare changes
+between working directory and staging area, and `git diff --staging` command to
+compare staging are and recent commit, all allowing us to prepare a commit for
+single logical change.
+
 
