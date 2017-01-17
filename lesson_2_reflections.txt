@@ -21,4 +21,9 @@ between working directory and staging area, and `git diff --staging` command to
 compare staging are and recent commit, all allowing us to prepare a commit for
 single logical change.
 
+Q: What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
 
+A: Keeping a master branch separated from feature/fix branches allows to always
+have working code available. When we're in a separate branch we do not have to
+worry about making mistakes and breaking the code.
