@@ -8,3 +8,12 @@ stay up-to-date with your remote repository?
 
 A: Automatic changes pull might break your local copy of files before its finished and
 ready for publishing (pushing to remote).
+
+Q: Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+A: Forks basically are clones of a repository within GitHub eco-system. Clones are copys
+of an existing repository whether its local or remote repositories. Branches are a part of
+repository used to separate working copy from experimental features. We would use fork
+when we do not have access to editing someone elses repository. After forking a repo on
+GitHub we can create a local forked repo clone and be able to make changes to it (push/pull).
