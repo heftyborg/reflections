@@ -40,4 +40,8 @@ A: Merging two branches creates a new commit that points to two latests commits
 from both branches making them its parents. The branch we merge into changes its
 position reference to the new commit.
 
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
 
+A: Auto merging saves a lot of time and effort, on the other hand manual merging
+gives you more power over which changes would go to resulting commit.
