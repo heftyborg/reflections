@@ -28,3 +28,11 @@ would be harder?
 
 A: Sending archives or separate files back and forth leaving comments in the files or emails.
 Not cool.
+
+Q: When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+A: Using a separate branch is benificial to making changes in the master branch when we want
+to test or share a particular idea that not necesserily might be accepted or valid. Its
+important to always keep a working/valid snapshot in master branch, and switching to a
+separate branch for working on a new idea allows us just that.
