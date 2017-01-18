@@ -23,4 +23,8 @@ Q: What is the benefit of having a copy of the last known state of the remote st
 A: This would allow to easily track the state of local and remote repositiories and choose
 the right solution when doing merges.
 
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what
+would be harder?
 
+A: Sending archives or separate files back and forth leaving comments in the files or emails.
+Not cool.
