@@ -2,3 +2,9 @@ Q: When would you want to use a remote repository rather than keeping all your w
 
 A: Using remote repositories is an easy way to share your work with others and participate
 in others projects.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+A: Automatic changes pull might break your local copy of files before its finished and
+ready for publishing (pushing to remote).
